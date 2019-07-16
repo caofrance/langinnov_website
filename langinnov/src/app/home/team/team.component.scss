@@ -1,0 +1,124 @@
+@import 'constants';
+@import 'variables';
+@import 'animations';
+
+.team {
+  background-image: var(--background-home-team);
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+
+  .team-circle1 {
+    position: absolute;
+    top: auto;
+    left: 100px;
+    bottom: 300px;
+  }
+  .team-circle2 {
+    position: absolute;
+    top: auto;
+    left: 180px;
+    bottom: 180px;
+  }
+  .team-circle3 {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: -150px;
+  }
+
+  .title{
+    padding-top: 50px;
+  }
+
+
+  button {
+    // margin-top: -20px;
+    // padding: 5px 40px;
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+  }
+
+}
+
+.team-item {
+  background-color: var(--color-background);
+  text-align: center;
+  padding: 30px;
+
+  .team-avtar {
+    img {
+      height: 170px;
+      width: 170px;
+      border-radius: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .team-name {
+    margin: 15px 0px;
+  }
+
+  .team-text{
+    p{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.team-circle3 {
+  animation: movebounce 3.9s linear infinite;
+}
+
+.team-circle2 {
+  animation: movebounce 3s linear infinite;
+}
+
+.team-circle1 {
+  animation: movebounce 2.8s linear infinite;
+}
+
+@media(max-width: 1199px) and (min-width: 992px) {
+  .team-item {
+    p{
+      min-height: 1.8em*3;
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .team-name {
+    min-height: 2.5em;
+  }
+
+  .team{
+    background-image: var(--background-home-team2);
+  }
+
+}
+
+@media(min-width:0px){
+  ::ng-deep .owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  ::ng-deep .owl-item{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .team-item{
+    width: 100%;
+  }
+}
+
+

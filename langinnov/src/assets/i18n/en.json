@@ -1,0 +1,338 @@
+{
+    "SHARED": {
+        "FOOTER": {
+            "CONTACT": {
+                "IMG": {
+                    "SRC": "assets/images/LangInnov/logo.png",
+                    "ALT": ""
+                },
+                "MAIL": "contact@langinnov.com"
+            },
+            "FOOTNOTE": "© 2019 LangInnov"
+        }
+    },
+    "HOME" : {
+        "INTRO": {
+            "CATCHPHRASE": "Welcome to LangInnov",
+            "SUB-MESSAGE": "We provide innovative educational applications for bilingual communities.",
+            "BTN-START": "See Our App",
+            "BTN-PLAY": "Watch Video"
+        },
+        "INTRO-ABOUT": {
+          "TITLE": "Who We Are",
+          "DESCRIPTION": [
+            {
+                "PARAGRAPH": "LangInnov is a start-up company whose mission is to support the development of bilingualism by addressing the need for adequate assessment materials for the growing bilingual population that enters U.S. educational systems."
+            },
+            {
+                "PARAGRAPH": "Our first product, BLAST, is being developed with funds awarded by the National Science Foundation."
+            }
+          ]
+        },
+        "SERVICES": {
+          "TITLE": "Our Products",
+          "PRODUCT": "BLAST",
+          "SUB-MESSAGE": "Bilingual Literacy Assessment and Skills Tracker",
+          "DESCRIPTION": [
+            {
+                "PARAGRAPH": "BLAST is a user-friendly, fully automated, multi-platform, language and literacy assessment for emergent bilinguals, that allows them to respond in English, their home language, or both. It measures reading, writing, listening, speaking, and cognitive skills. The assessment is intuitive, adapting to each student on the go, based on their responses, and is graded automatically in real time."
+            }
+          ],
+          "FEATURE1" : {
+              "ICON" : "",
+              "TITLE" : "Language and literacy assessment for bilinguals",
+              "DESCRIPTION" : "It measures reading, writing, listening and oral skills. The assessment is intuitive, adapting to each student on the go, and is graded automatically."
+          },
+          "FEATURE2" : {
+            "ICON" : "",
+            "TITLE" : "A user-friendly and fully automated application",
+            "DESCRIPTION" : "It includes a platform where teachers and parents collaborate and where each student receives a personalized bundle of analytics and activities."
+          },
+          "FEATURE3" : {
+            "ICON" : "",
+            "TITLE" : "Capable of assessing oral skills in children",
+            "DESCRIPTION" : "This is accomplished by using a speech recognizer that will be refined by integrating machine learning algorithms trained on children speech data."
+          }
+        },
+        "ABOUT": {
+          "TITLE": "ABOUT US",
+          "MESSAGE":"LangInnov was founded by two entrepreneurial women: Dr. Rocio Raña and Dr. Xuan-Nga Cao.",
+          "SUB-MESSAGE": "Dr. Raña and Dr. Cao met in New York City while pursuing doctoral studies in linguistics. Since then, they have collaborated in research, educational, and business projects. LangInnov is the culmination of years of joint and independent work that allowed them to realize that there was a societal need for an app such as BLAST.",
+          "PERSON1-PHOTO": "assets/images/LangInnov/Rocio-Rana.jpg",
+          "PERSON1-NAME": "Rocío Raña, Ph.D.",
+          "PERSON1-ROLE": "Co-Founder",
+          "PERSON1-WEBSITE": "http://www.langalo.com/",
+          "PERSON2-PHOTO": "assets/images/LangInnov/xuan-nga_cao.png",
+          "PERSON2-NAME": "Xuan-Nga Cao, Ph.D.",
+          "PERSON2-ROLE": "Co-Founder",
+          "PERSON2-WEBSITE": "https://www.linkedin.com/in/xuan-nga-cao-5885502/"
+        },
+        "CAREERS": {
+          "TITLE": "Careers",
+          "BTN": "More Info",
+          "JOBS":{
+
+          }
+
+        },
+        "ABOUT-INTRO": {
+          "CATCHPHRASE": "Uncover your child's learning path",
+          "DESCRIPTION": [
+            {
+                "PARAGRAPH": "During their first years of life, infants develop physically, emotionally and cognitively at an amazing speed."
+            },
+            {
+                "PARAGRAPH": "These early acquisitions lay the foundation for later academic, personal and professional achievements. With BabyCloud you can learn more about about your child's progress during these fascinating days."
+            }
+          ]
+        },
+        "ABOUT-REVERSE": {
+            "TITLE": "Simple & easy to use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "BabyCloud documents and tracks your child’s natural language development. The low profile BabyLogger captures their everyday interactions which are then analysed by state-of-the-art machine learning algorithms. The findings are delivered directly to your phone with the BabyCloud application."
+              },
+              {
+                  "PARAGRAPH": ""
+              }
+            ]
+        },
+        "PRIVACY": {
+          "CATCHPHRASE": "Your privacy is paramount",
+          "VIDEO-BTN": "More Infomation",
+          "DESCRIPTION": [
+            {
+                "PARAGRAPH": "We have designed BabyCloud to give you complete control over your data. All data is encrypted and only you have access to the audio files."
+            },
+            {
+                "PARAGRAPH": "When contributing to research, you can choose to contribute your data in full, in part, or not at all. All data that is contributed is anonymized and transferred via a secure protocol."
+            }
+          ]
+        },
+        "PARTNERS": {
+            "DESCRIPTION": "Affiliated with",
+            "SUPPORTS": [
+                {
+                    "IMG": {
+                        "SRC": "/assets/images/LangInnov/nsf_logo.png",
+                        "ALT": "logo National Science Foundation"
+                    }
+                }
+            ]
+        },
+        "RESEARCH": {
+            "TITLE": "Support the research",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Parents, you have the opportunity to take part in our scientific research to establish pioneering quantitative standards and predictive models!"
+              },
+              {
+                  "PARAGRAPH": "Your contribution helps BabyCloud develop tools for early diagnosis of speech delays as well as more efficient intervention programs. These programs will help many children impacted by language or cognitive disorders worldwide."
+              }
+            ]
+        },
+        "TEAM": {
+            "TITLE": "Meet our experts",
+            "MEMBERS": [
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/eDupoux.jpg",
+                        "ALT": "Photograph of Emmanuel Dupoux"
+                    },
+                    "NAME": "Dr. Emmanuel Dupoux",
+                    "DESCRIPTION": "Creator of Babycloud & Speech Technology specialist "
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/aCristia.jpg",
+                        "ALT": "Photograph of Alejandrina Cristia"
+                    },
+                    "NAME": "Dr. Alejandrina Cristia",
+                    "DESCRIPTION": "CNRS researcher & Child Language Development specialist"
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/aBillot.jpg",
+                        "ALT": "Photograph of Anne Billot"
+                    },
+                    "NAME": "Anne Billot",
+                    "DESCRIPTION": "Speech Therapist with expertise in cognitive and linguistic remediation."
+                }
+            ],
+            "EVERYONE": {
+              "TITLE": "The whole BabyCloud gang",
+              "BTN-TEAM": "Meet the team",
+              "IMG": {
+                "SRC": "assets/images/avtar/team.jpg",
+                "ALT": "Photograph of the BabyCloud team"
+              }
+            }
+
+        },
+        "BENEFITS": {
+          "TITLE": "With BabyCloud you can",
+          "BENEFIT": [
+              {
+                  "IMG": {
+                      "SRC": "assets/images/icon/microphone.png",
+                      "ALT": "Illustration of a microphone"
+                  },
+                  "DESCRIPTION": "Keep a record of your child’s first words, language milestones, and linguistic and social interaction clips"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/icon/phone.png",
+                      "ALT": "Illustration of a phone with a graph on the screen"
+                  },
+                  "DESCRIPTION": "Track your child’s daily vocal activity, linguistic complexity, and social responsiveness"
+              },
+              {
+                  "IMG": {
+                      "SRC": "assets/images/icon/researcher.png",
+                      "ALT": "Illustration of a researcher"
+                  },
+                  "DESCRIPTION": "Contribute to the early diagnosis of speech delays and development of efficient intervention programs"
+              }
+          ]
+      },
+        "FEATURE": {
+            "TITLE": "The first steps with Babycloud",
+            "STEPS": [
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction1.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Start with the Logger",
+                    "DESCRIPTION": "Capture your family’s interactions throughout the day and to document the input your child is receiving during their language acquisition stage."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction2.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Recharge with the Dock",
+                    "DESCRIPTION": "While the logger charges, the dock transfers the recordings to the secure cloud for analysis. Don’t worry, the process is totally secure and encrypted."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction3.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Analyze with the Baby SmartBox",
+                    "DESCRIPTION": "Our existing pipeline (source separation, voice activity detection, speaker diarization) will extract, segment and label stretches of data with communicative activity."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction4.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Get informed with the Explorer",
+                    "DESCRIPTION": "Parents have access to metadata and developmental analytics (child’s first words, language milestones, linguistic and social interactions clips and analyses)."
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/illus/testFunction5.png",
+                        "ALT": ""
+                    },
+                    "NAME":"Get involved in “Citizen Science”",
+                    "DESCRIPTION": "Ultimately, your contribution will help many children impacted by language or cognitive disorders worldwide."
+                }
+            ]
+        },
+        "TESTIMONIAL": {
+            "TITLE": "Echoes from BETA",
+            "TESTIMONIES": [
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/parents01.jpg",
+                        "ALT": ""
+                    },
+                    "CITATION": "The logger is cute and super easy to use. We are willing to contribute our data for research purposes.",
+                    "NAME": "Noah's parents",
+                    "LOCATION": "Clichy - France"
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/parents02.jpg",
+                        "ALT": ""
+                    },
+                    "CITATION": "We love all of BabyCloud’s functionalities developed so far and are really interested in advancing  research.",
+                    "NAME": "Margaux’s parents",
+                    "LOCATION": "Paris - France"
+                },
+                {
+                    "IMG": {
+                        "SRC": "assets/images/avtar/parents03.jpg",
+                        "ALT": ""
+                    },
+                    "CITATION": "We are particularly interested in the chart and milestones features. We are definitely interested in being a beta-tester as we just had a new addition the family.",
+                    "NAME": "Elliott’s parents",
+                    "LOCATION": "Paris - France"
+                }
+            ]
+        },
+        "NEWSLETTER": {
+            "CATCHPHRASE": "Interested in our project?",
+            "DESCRIPTION": "We will email a brief update to subscribers each month. The update highlights product development, research progress, and other content published on our website.",
+            "BTN-PROFILE": "Profile",
+            "MSG-INVALID-MAIL": "Please enter a valid email address",
+            "PROFILES": [
+                {
+                    "NAME": "Parent",
+                    "VALUE": "parent"
+                },
+                {
+                    "NAME": "Researcher",
+                    "VALUE": "researcher"
+                },
+                {
+                    "NAME": "Investor",
+                    "VALUE": "investor"
+                }
+            ],
+            "BTN-SEND": "Subscribe",
+            "DISCLAIMER": "Your email address is only used to keep you informed on the progress of the BabyCloud project. We invite you to consult the site's terms of use for more information on the user’s rights."
+        }
+    },
+    "PAGES" : {
+      "CAREERS": {
+        "TITLE": "Careers",
+        "SECTION-TITLE": "Join Our Team!",
+        "DESCRIPTION": [
+          {
+              "PARAGRAPH": "Be part of a human-sized [agency] filled with passionate and friendly people, collaborate with appealing international clients that have similar values to our own and be in a team that has a thirst for new technologies."
+          },
+          {
+              "PARAGRAPH": "More than just a place to work, [company] is a place where your happiness matters and your talents are valued."
+          }
+        ],
+        "BTN": "More Info",
+        "MESSAGE": "Available Positions",
+        "POSITIONS": [
+          {
+            "POSITION": "Full-Stack Developer",
+            "LOCATION": "New York, New York"
+          },
+          {
+            "POSITION": "UI-UX Designer",
+            "LOCATION": "New York, New York"
+          },
+          {
+            "POSITION": "Educational Content Assistant",
+            "LOCATION": "New York, New York"
+          },
+          {
+            "POSITION": "Research Assistant",
+            "LOCATION": "New York, New York"
+          }
+
+        ],
+        "CALLTOACTION": "Don't see what you are looking for?",
+        "INFORMATION1": "If you want to join a dynamic team, please submit your resume and a link to your portfolio to",
+        "EMAIL": "contact@langinnov.com",
+        "INFORMATION2": ".",
+        "INFORMATION3": "Not sure where you might fit? Send us your resume and tell us about yourself. We are always looking to add good people to our team!"
+      }
+    }
+}

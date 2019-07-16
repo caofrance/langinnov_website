@@ -1,0 +1,70 @@
+<section id="home-news" class="home-news">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-12 title-area">
+              <h2 class="title text-left">{{ 'PAGES.NEWS.TITLE' | translate }}</h2>
+              <p>{{ 'PAGES.NEWS.SUBTITLE' | translate }}</p>
+          </div>
+        </div>
+        <div *ngIf="!bMedium; else medium">
+          <div class="row col-10 mx-auto" >
+            <ng-container *ngFor="let article of articles; let i=index;">
+              <ng-container *ngIf="i<3">
+                <div class="gallery-item col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 {{ article.FILTER }}">
+                  <mat-card class="gallery-card">
+                    <a href="{{ article.HREF }}" target="_blank">
+                    <div mat-card-image class="news-image" [style.backgroundImage]="'url('+article.IMG.SRC+')'"></div>
+                    <h6>{{ article.HEADLINE }}</h6>
+                    <p>{{ article.PUBLISHER }} &nbsp;  {{ article.LANGUAGE }}</p>
+                  </a>
+                  </mat-card>
+                </div>
+              </ng-container>
+            </ng-container>
+          </div>
+        </div>
+        <div class="news-BTN col-10 mx-auto text-center">
+          <button mat-flat-button color="accent" class="m2" [routerLink]="'/pages/news'" href="" >{{ 'PAGES.NEWS.BTN-MORE' | translate }}</button>
+        </div>
+  </div>
+</section>
+
+
+<ng-template #medium>
+  <ng-container *ngIf="!bMobile; else mobile">
+    <div class="row col-10 mx-auto" >
+      <ng-container *ngFor="let article of articles; let i=index;">
+        <ng-container *ngIf="i<2">
+          <div class="gallery-item col-6 {{ article.FILTER }}">
+            <mat-card class="gallery-card">
+              <a href="{{ article.HREF }}" target="_blank">
+              <div mat-card-image class="news-image" [style.backgroundImage]="'url('+article.IMG.SRC+')'"></div>
+              <h6>{{ article.HEADLINE }}</h6>
+              <p>{{ article.PUBLISHER }} &nbsp;  {{ article.LANGUAGE }}</p>
+            </a>
+            </mat-card>
+        </div>
+      </ng-container>
+    </ng-container>
+    </div>
+  </ng-container>
+</ng-template>
+
+<ng-template #mobile>
+      <div class="row col-10 mx-auto" >
+        <ng-container *ngFor="let article of articles; let i=index;">
+          <ng-container *ngIf="i<1">
+            <div class="gallery-item col-12 {{ article.FILTER }}">
+              <mat-card class="gallery-card">
+                <a href="{{ article.HREF }}" target="_blank">
+                <div mat-card-image class="news-image" [style.backgroundImage]="'url('+article.IMG.SRC+')'"></div>
+                <h6>{{ article.HEADLINE }}</h6>
+                <p>{{ article.PUBLISHER }} &nbsp;  {{ article.LANGUAGE }}</p>
+              </a>
+              </mat-card>
+          </div>
+        </ng-container>
+      </ng-container>
+      </div>
+  </ng-template>

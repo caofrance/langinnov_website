@@ -1,0 +1,17 @@
+<section id="about" class="about-reverse">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-11 col-md-12 col-lg-6 mx-auto" >
+        <h2>{{ 'HOME.ABOUT-REVERSE.TITLE' | translate }}</h2>
+        <p class="caption-about text-left text-sm-justify" *ngFor="let paragraph of paragraphs">{{ paragraph.PARAGRAPH }}</p>
+      </div>
+
+      <div class="col-md-9 col-lg-6 order-first order-md-first order-lg-last mx-auto">
+        <div class="about-img">
+          <img class="img-fluid" src="assets/images/illus/rendu.png" alt="child learning progress">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

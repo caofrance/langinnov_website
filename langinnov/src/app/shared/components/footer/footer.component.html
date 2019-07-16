@@ -1,0 +1,38 @@
+<div class="jumbotron d-flex justify-content-around footer" *ngIf="!bMobile; else mobile">
+  <!-- <div>
+    <div class="logo">
+      <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+    </div>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.MAIL' | translate }}</small></p>
+  </div> -->
+  <div *ngFor="let column of footerColumns">
+    <h6>{{ column.TITLE }}</h6>
+    <p *ngFor="let link of column.LINKS">
+      <small><a href="{{ link.HREF }}">{{ link.NAME }}</a></small>
+    </p>
+  </div>
+  <div class="affiliations">
+    <div class="justify-content-left">
+        <h6 class="affiliations-description">{{ 'HOME.PARTNERS.DESCRIPTION' | translate }}</h6>
+    </div>
+    <div class="d-flex justify-content-around align-items-center flex-wrap" *ngIf="(supports$ | async) as supports; else loading">
+        <div class="affiliations-item" *ngFor="let support of supports">
+            <img src="{{ support.IMG.SRC }}" alt="{{ support.IMG.ALT}}">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="copyright-section index-footer">
+  <p><small><b>© 2019</b> LangInnov</small></p>
+</div>
+
+<ng-template #mobile>
+  <div class="jumbotron d-flex flex-column align-items-center footer">
+    <div class="logo">
+      <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+    </div>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.TEL' | translate }}</small></p>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.MAIL' | translate }}</small></p>
+  </div>
+</ng-template>

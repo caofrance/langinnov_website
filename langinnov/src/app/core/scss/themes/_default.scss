@@ -1,0 +1,15 @@
+// For more details, check https://material.io/design/color/#tools-for-picking-colors
+// Generate custom theme on https://material.io/tools/color/
+
+// define 3 theme color
+// mat-palette accepts $palette-name, main, lighter and darker variants
+$default-primary: mat-palette($mat-cyan, 700, 300, 900);
+$default-accent: mat-palette($mat-deep-orange, 600, 200, 800);
+$default-warn: mat-palette($mat-gray, 300);
+
+// create theme (use mat-dark-theme for themes with dark backgrounds)
+$default: mat-light-theme(
+    $default-primary,
+    $default-accent,
+    $default-warn
+);

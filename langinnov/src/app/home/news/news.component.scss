@@ -1,0 +1,58 @@
+@import 'constants';
+@import 'variables';
+
+.home-news {
+  background-image: var(--background-home-testimonial);
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  padding-top: 10vh;
+
+  .title-area{
+    padding-bottom: 30px;
+  }
+  .news-BTN{
+    padding-bottom: 50px;
+  }
+  button {
+    padding: 5px 40px;
+    max-width: 70%;
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+  }
+}
+
+.gallery-item
+{
+    margin-bottom: 30px;
+    display: flex;
+    // align-items: stretch;
+
+    img{
+      object-fit: cover !important ;
+    }
+
+    p{
+      margin-bottom: 0;
+    }
+
+    .news-image{
+      padding-bottom: 100%;
+      background-color: var(--color-primary);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .gallery-card{
+      width: 100%;
+    }
+
+}
+
+.filter-btns{
+  padding-bottom: 30px;
+}
+
+.mat-card{
+  font-family: 'Open sans', Arial, Helvetica, sans-serif;
+}

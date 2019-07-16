@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - "9"
+dist: trusty
+sudo: false
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install -g yarn
+
+script:
+  - yarn lint
+  - yarn build --base-href /langinnov/
+  - mv dist/langinnov/index.html dist/langinnov/404.html
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 0d4864c658d552c9f4f52f8026a262b9b36fd24d
+  local_dir: dist/langinnov
+  on:
+    branch: master

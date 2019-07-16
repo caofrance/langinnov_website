@@ -1,0 +1,71 @@
+<app-header></app-header>
+<!--FAQ Section start-->
+<div class="page-margin">
+  <!--breadcrumb start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-text-center d-align-center">
+        <h2 class="title"><span>{{ 'PAGES.CAREERS.SECTION-TITLE' | translate }}</span></h2>
+      </div>
+      <!-- <div class="col-md-6 col-sm-6 col-text-center">
+        <nav aria-label="breadcrumb" class="blog-bradcrumb ">
+          <ol class="breadcrumb bg-transparent mb-0">
+            <li class="breadcrumb-item"><a [routerLink]="'/home/one'">Home</a></li>
+            <li class="breadcrumb-item active"><a [routerLink]="'pages/faq'">Careers</a></li>
+          </ol>
+        </nav>
+      </div> -->
+    </div>
+  </div>
+  <!--breadcrumb end -->
+  <!-- careers -->
+  <section id="intro" class="careers">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-12 col-lg-6">
+          <div class="careers-img mx-auto">
+            <img class="img-fluid" src="assets/images/pages/careers.png" alt="careers image">
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-6" >
+          <h2 class="title">{{ 'PAGES.CAREERS.SECTION-TITLE' | translate }}</h2>
+          <p class="caption-careers" *ngFor="let paragraph of paragraphs">{{ paragraph.PARAGRAPH }}</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="positions" class="careers">
+    <div class="container-positions">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <h2 class="title text-center">{{ 'PAGES.CAREERS.MESSAGE' | translate }}</h2>
+          <div class="position-listings col-xs-10 col-sm-10 col-md-10 col-lg-10 d-flex mx-auto align-items-center" (click)="openDialog()" *ngFor="let position of positions">
+            <h5 class="position-title d-inline-block col-md-6">{{ position.POSITION }}</h5>
+            <p class="position-location d-inline-block col-md-6">{{ position.LOCATION }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-us" class="careers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 text-center">
+          <h2 class="title col-md-8 col-lg-8 mx-auto">{{ 'PAGES.CAREERS.CALLTOACTION' | translate }}</h2>
+          <p class="caption-careers col-md-6 col-lg-6 mx-auto">{{ 'PAGES.CAREERS.INFORMATION1' | translate  }} <a target="_blank" href="https://www.google.com">{{ 'PAGES.CAREERS.EMAIL' | translate  }}</a>{{ 'PAGES.CAREERS.INFORMATION2' | translate  }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- careers -->
+</div>
+<!--FAQ Section start-->
+<app-footer></app-footer>

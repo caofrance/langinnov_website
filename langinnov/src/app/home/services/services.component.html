@@ -1,0 +1,52 @@
+<section id="services" class="services">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 mx-auto text-center section-title"><h2>{{ 'HOME.SERVICES.TITLE' | translate }}</h2></div>
+      <div class="col-md-12 col-lg-6">
+        <div class="intro-img col-lg-8 col-md-5 col-sm-5 mx-auto" *ngIf="!bMedium">
+          <img class="img-fluid app" src="assets/images/LangInnov/app.png" alt="learning path">
+        </div>
+      </div>
+      <div class="col-11 col-md-11 col-lg-6 mx-auto" >
+        <div class="intro-contain">
+          <div>
+            <h3 class="text-center">{{ 'HOME.SERVICES.PRODUCT' | translate }}</h3>
+            <h5 class="text-center">{{ 'HOME.SERVICES.SUB-MESSAGE' | translate }}</h5>
+            <p *ngFor="let paragraph of paragraphs" class="text-left text-sm-justify">{{ paragraph.PARAGRAPH }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-11 mx-auto three-features" >
+        <div class="row">
+            <div class="col-4">
+              <div class="gallery-item">
+                <mat-card class="gallery-card text-center">
+                  <img mat-card-image class="feature-image col-8" src="{{'HOME.SERVICES.FEATURE1.ICON' | translate }}" alt="cloud icon">
+                  <h6>{{ 'HOME.SERVICES.FEATURE1.TITLE' | translate }}</h6>
+                  <p>{{ 'HOME.SERVICES.FEATURE1.DESCRIPTION' | translate }}</p>
+                </mat-card>
+              </div>
+            </div>
+            <div class="col-4">
+                <div class="gallery-item">
+                  <mat-card class="gallery-card text-center">
+                    <img mat-card-image class="feature-image col-8" src="{{'HOME.SERVICES.FEATURE2.ICON' | translate }}" alt="computer icon">
+                    <h6>{{ 'HOME.SERVICES.FEATURE2.TITLE' | translate }}</h6>
+                    <p>{{ 'HOME.SERVICES.FEATURE2.DESCRIPTION' | translate }}</p>
+                  </mat-card>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="gallery-item">
+                  <mat-card class="gallery-card text-center">
+                    <img mat-card-image class="feature-image col-8" src="{{'HOME.SERVICES.FEATURE3.ICON' | translate }}" alt="rocket icon">
+                    <h6>{{ 'HOME.SERVICES.FEATURE3.TITLE' | translate }}</h6>
+                    <p>{{ 'HOME.SERVICES.FEATURE3.DESCRIPTION' | translate }}</p>  
+                  </mat-card>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

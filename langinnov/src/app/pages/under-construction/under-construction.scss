@@ -1,0 +1,37 @@
+@import 'variables';
+
+.construction {
+  background: var(--color-primary) var(--background-construction);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+
+  .row {
+    min-height: 100vh;
+  }
+
+  button {
+    padding: 5px 40px;
+    max-width: 70%;
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+  }
+
+  form{
+    padding:0;
+    margin:0;
+  }
+
+  mat-form-field{
+    padding:0;
+    margin:0 !important;
+  }
+}
+
+::ng-deep {
+  #construction{
+    .mat-form-field .mat-form-field-flex{
+      background-color: var(--color-background);
+    }
+  }
+}

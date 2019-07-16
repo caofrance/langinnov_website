@@ -1,0 +1,32 @@
+<section id="careers" class="careers">
+  <div class="careers-bkg"><img src="/assets/images/LangInnov/careers_bkg.svg"></div>
+    <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 mx-auto text-center section-title" >
+                  <h2>{{ 'PAGES.CAREERS.TITLE' | translate }}</h2>
+            </div>
+        </div>
+
+      <div id="positions" class="careers">
+        <div class="row">
+          <div class="col-4" (click)="openDialog()" *ngFor="let position of positions">
+              <div class="gallery-item">
+                <mat-card class="gallery-card text-center">
+                  <h5>{{ position.POSITION }}</h5>
+                  <p>{{ position.LOCATION }}</p>
+                  <button mat-flat-button color="accent" class="m2">{{ 'HOME.CAREERS.BTN' | translate }}</button>
+                </mat-card>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+          <div class="row">
+            <div class="col-md-12 col-lg-12 text-center">
+              <p class="caption-careers col-md-6 col-lg-6 mx-auto">{{ 'PAGES.CAREERS.INFORMATION1' | translate  }} <a target="_blank" href="https://www.google.com">{{ 'PAGES.CAREERS.EMAIL' | translate  }}</a>{{ 'PAGES.CAREERS.INFORMATION2' | translate  }}</p>
+              <p class="caption-careers col-md-6 col-lg-6 mx-auto">{{ 'PAGES.CAREERS.INFORMATION3' | translate  }}</p>
+            </div>
+          </div>
+
+    </div>
+  </section>

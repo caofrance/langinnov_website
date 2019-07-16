@@ -1,0 +1,20 @@
+@import 'variables';
+
+.partners {
+    // background-color:transparent;
+
+    .partner-item {
+        margin: 25px;
+
+        img {
+            width: 5vw;
+            height: auto;
+            max-width: 50px;
+        }
+    }
+
+    .partner-description {
+        border-bottom: 1px solid var(--color-text);
+        padding: 10px 30px;
+    }
+}

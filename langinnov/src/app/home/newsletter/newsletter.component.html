@@ -1,0 +1,51 @@
+<section id="newsletter" class="container">
+  <div class="row">
+
+    <div class="newsletter-info col-10 mx-auto" *ngIf="!userSubscribed">
+      <div>
+        <h2 class="title text-center text-sm-center md-margin-top">{{ 'HOME.NEWSLETTER.CATCHPHRASE' | translate }}</h2>
+        <p
+          class="text-center text-sm-justify newsletter-description">{{ 'HOME.NEWSLETTER.DESCRIPTION' | translate }}</p>
+      </div>
+    </div>
+
+    <div *ngIf="userSubscribed" class="newsletter-info-success col-10 mx-auto">
+      <div>
+        <h3 class="title text-center text-sm-center md-margin-top">You successfully subscribed to our newsletter,</h3>
+        <h2 class="title text-center text-sm-center">thank you!</h2>
+        <!-- <p class="text-center text-sm-justify newsletter-description">We promise to keep you up-to-date on all the exciting progress made by the BabyCloud team!</p> -->
+      </div>
+    </div>
+
+    <div *ngIf="errorWhileSubbing" class="newsletter-info col-10 mx-auto">
+      <div>
+        <h2>
+          There was an error with the subscription. We are very sorry. Please try again later.
+        </h2>
+      </div>
+    </div>
+
+  </div>
+  <form [formGroup]="contactForm" class="row d-flex justify-content-center input-buttons" *ngIf="!userSubscribed">
+    <mat-form-field appearance="fill" class="m-4">
+      <mat-select placeholder="{{ 'HOME.NEWSLETTER.BTN-PROFILE' | translate}}" formControlName="profile">
+        <mat-option *ngFor="let profile of profileTypes" value="{{ profile.VALUE }}">{{ profile.NAME }}</mat-option>
+        <mat-option *ngIf="bError" value="unavailable">Default</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="m-4">
+      <input matInput type="email" placeholder="Email" formControlName="email">
+      <mat-error
+        *ngIf="contactForm.controls['email'].hasError('email') || contactForm.controls['email'].hasError('required')">
+        {{ 'HOME.NEWSLETTER.MSG-INVALID-MAIL' | translate }}
+      </mat-error>
+    </mat-form-field>
+  </form>
+  <div class="row d-flex justify-content-center" *ngIf="!userSubscribed">
+    <button mat-flat-button color="primary" (click)="sendForm()"
+            [disabled]="!contactForm.valid">{{ 'HOME.NEWSLETTER.BTN-SEND' | translate }}</button>
+  </div>
+  <div class="col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3 mx-auto disclaimer text-justify"><p
+    class="col-12">{{ 'HOME.NEWSLETTER.DISCLAIMER' | translate }}</p></div>
+</section>

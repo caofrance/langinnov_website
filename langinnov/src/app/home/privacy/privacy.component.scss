@@ -1,0 +1,23 @@
+@import 'constants';
+
+.privacy {
+  .row {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    min-height: 50vh;
+  }
+
+  .mat-dialog-container{
+    padding:0 !important;
+  }
+
+  button{
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+  }
+
+}
+
+#mat-dialog-1{
+  padding:0 !important;
+}

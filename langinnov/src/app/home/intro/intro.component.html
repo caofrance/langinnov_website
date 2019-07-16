@@ -1,0 +1,23 @@
+<section id="intro" class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-5 align-self-center text-left" >
+        <div class="intro-contain">
+          <div>
+            <h1>{{ 'HOME.INTRO.CATCHPHRASE' | translate }}</h1>
+            <h4>{{ 'HOME.INTRO.SUB-MESSAGE' | translate }}</h4>
+            <div class="home-buttons align-self-start">
+                <button mat-flat-button color="accent" class="m2" [routerLink]="'/home'" href="#services"
+                [pageScrollOffset]="80" pageScroll *ngIf="!bMobile">{{ 'HOME.INTRO.BTN-START' | translate }}</button>
+                <!-- <button mat-flat-button color="accent" class="m2" (click)="openDialog()">{{ 'HOME.INTRO.BTN-PLAY' | translate }} &nbsp; <i class="fa fa-play-circle fa-lg"></i></button> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 align-self-center">
+        <img class="img-fluid" src="../assets/images/LangInnov/kids_tablet.png" alt="two children playing on tablet">
+      </div>
+    </div>
+  </div>
+</section>

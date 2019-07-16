@@ -1,0 +1,45 @@
+.careers {
+  .careers-bkg{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    opacity: 0.2;
+  }
+
+    margin-top: 15vh;
+  
+    .row {
+
+    }
+
+    .careers-img{
+    width: 50%;
+
+    }
+
+
+    .position-listings{
+    box-shadow: 0 0 65px 0 var(--color-primary);
+    margin-top: 10px;
+    height: 125px;
+    cursor: pointer;
+    }
+    .position-listings:hover{
+    background-color: var(--color-primary);
+    }
+
+    button{
+    margin-top: 10px;
+    padding: 5px 40px;
+    max-width: 70%;
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    }
+  
+  }
+  #positions{
+    padding-bottom: 15vh;
+  }

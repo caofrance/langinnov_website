@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+  <section id="privacy-policy" class="privacy-policy">
+    <div class="container">
+      <div class="row ">
+        <div class="outline col-md-12 col-lg-10 mx-auto" >
+            <h2 class="title text-center">{{ 'PAGES.PRIVACY-POLICY.TITLE' | translate }}</h2>
+          <div class="caption-privacy-policy" *ngFor="let point of points; let i = index;">
+            <h5 class>{{ i + 1 + ". " + point.MAIN_POINT }}</h5>
+            <p *ngFor="let paragraph of point.DESCRIPTION;" style="white-space: pre-line;" style="white-space: pre-line;" [innerHTML]="paragraph.PARAGRAPH"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<app-footer></app-footer>

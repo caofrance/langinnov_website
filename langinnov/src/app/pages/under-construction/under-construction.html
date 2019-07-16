@@ -1,0 +1,31 @@
+
+<section id="construction" class="construction">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 col-sm-10 align-self-center text-center mx-auto">
+        <div class="construction-contain">
+            <h1>{{ 'PAGES.CONSTRUCTION.TITLE' | translate }}</h1>
+
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="intro-img col-12 col-sm-12 col-md-10 col-lg-7 col-xl-5  mx-auto">
+            <img class="img-fluid" src="assets/images/illus/baby-construction.png" alt="baby website under construction">
+        </div>
+    </div>
+      <div class="mx-auto">
+        <form [formGroup]="loginForm" class="d-flex justify-content-center">
+          <mat-form-field appearance="fill" class="m-4">
+            <mat-label>{{ 'PAGES.CONSTRUCTION.INSTRUCTIONS' | translate }}</mat-label>
+            <input matInput type="password" placeholder="{{ 'PAGES.CONSTRUCTION.PASSWORD' | translate }}" formControlName="password">
+          </mat-form-field>
+        </form>
+        <div class="d-flex justify-content-center">
+          <button mat-flat-button color="primary" (click)="login()">{{ 'PAGES.CONSTRUCTION.BTN' | translate }}</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+

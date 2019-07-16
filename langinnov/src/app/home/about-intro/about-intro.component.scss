@@ -1,0 +1,16 @@
+@import 'constants';
+
+#about-intro {
+  .row {
+    // padding-top: 10vh;
+    min-height: 50vh;
+    margin-bottom: -5vh;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro-img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

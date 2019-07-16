@@ -1,0 +1,46 @@
+// Follow angular material theme class applied on body
+// For mor details check https://material.io/design/color/the-color-system.html#color-theme-creation
+
+.default {
+    --color-title:  #1f2140;
+    --color-text: #818689;
+    --color-text-invert: white;
+    --color-background: white;
+    --color-primary: #D9EEF3;
+    --color-primary-variant: #54C5D3;
+    --color-accent: #f68c1f;
+    --color-accent-variant: #396ac5;
+    --color-gray: #f4f4f4;
+    --color-warn: red;
+
+
+
+
+    --background-home-partners: url('/assets/images/backgrounds/partners-default.svg');
+    --background-home-team: url('/assets/images/backgrounds/team.svg');
+    --background-home-team2: url('/assets/images/backgrounds/team2.svg');
+    --background-home-testimonial: url('/assets/images/backgrounds/testimonial.svg');
+    --background-home-newsletter-baby: url('/assets/images/illus/baby-newsletter.png');
+    --background-home-newsletter-clouds: url('/assets/images/illus/clouds-newsletter.png');
+    --background-construction: url('/assets/images/backgrounds/construction.svg');
+
+    --background-home-intro: url('/assets/images/LangInnov/home_bkg.svg');
+    --background-home-intro-mobile: url('/assets/images/LangInnov/home_bkg.svg');
+    --background-about: url('/assets/images/LangInnov/about_bkg.svg');
+    --background-careers: url('/assets/images/LangInnov/careers_bkg.svg');
+    --background-app: url('/assets/images/LangInnov/app_bkg.svg');
+}
+
+// .night {
+//     --color-title:  red;
+//     --color-text: red;
+//     --color-text-invert: white;
+//     --color-background: blue;
+//     --color-primary: ;
+//     --color-primary-variant: ;
+//     --color-accent: ;
+//     --color-accent-variant: ;
+//     --color-warn: ;
+
+//     --background-home-partners: url('/assets/images/home/backgrounds/partners-night.svg');
+// }

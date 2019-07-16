@@ -1,0 +1,35 @@
+<section id="team" class="team">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+        <h2 class="title text-center text-sm-left">{{ 'HOME.TEAM.TITLE' | translate }}</h2>
+      </div>
+      <div class="col-12 mx-auto">
+        <div>
+          <owl-carousel [options]="teamCarousel" [items]="members" [carouselClasses]="['owl-theme']">
+            <div class="team-item" *ngFor="let member of members">
+              <div class="team-avtar">
+                <img src="{{ member.IMG.SRC }}" alt="{{ member.IMG.ALT }}">
+              </div>
+              <div class="team-text">
+                <h4 class="team-name">{{ member.NAME }}</h4>
+                <p>{{ member.DESCRIPTION }}</p>
+              </div>
+            </div>
+            <div class="team-item">
+              <div class="team-avtar">
+                <img src="{{ 'HOME.TEAM.EVERYONE.IMG.SRC' | translate }}" alt="{{ 'HOME.TEAM.EVERYONE.IMG.ALT' | translate }}">
+              </div>
+              <div class="team-text">
+                <h4 class="team-name">{{ 'HOME.TEAM.EVERYONE.TITLE' | translate }}</h4>
+                <a [routerLink]="'/pages/team'">
+                  <button mat-flat-button color="accent" class="m2">{{ 'HOME.TEAM.EVERYONE.BTN-TEAM' | translate }}</button>
+                </a>
+              </div>
+            </div>
+          </owl-carousel>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
