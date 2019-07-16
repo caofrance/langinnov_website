@@ -22,7 +22,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 0d4864c658d552c9f4f52f8026a262b9b36fd24d
+  github_token: $GITHUB_TOKEN
   local_dir: dist/langinnov
   on:
     branch: master
