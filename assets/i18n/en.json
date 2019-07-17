@@ -55,7 +55,7 @@
           }
         },
         "ABOUT": {
-          "TITLE": "ABOUT US",
+          "TITLE": "About Us",
           "MESSAGE":"LangInnov was founded by two entrepreneurial women: Dr. Rocio Raña and Dr. Xuan-Nga Cao.",
           "SUB-MESSAGE": "Dr. Raña and Dr. Cao met in New York City while pursuing doctoral studies in linguistics. Since then, they have collaborated in research, educational, and business projects. LangInnov is the culmination of years of joint and independent work that allowed them to realize that there was a societal need for an app such as BLAST.",
           "PERSON1-PHOTO": "assets/images/LangInnov/Rocio-Rana.jpg",
@@ -110,7 +110,7 @@
           ]
         },
         "PARTNERS": {
-            "DESCRIPTION": "Affiliated with",
+            "DESCRIPTION": "Funded by",
             "SUPPORTS": [
                 {
                     "IMG": {
