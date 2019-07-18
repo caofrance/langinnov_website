@@ -16,7 +16,9 @@
             "CATCHPHRASE": "Welcome to LangInnov",
             "SUB-MESSAGE": "We provide innovative educational applications for bilingual communities.",
             "BTN-START": "See Our App",
-            "BTN-PLAY": "Watch Video"
+            "BTN-PLAY": "Watch Video",
+            "SRC": "/assets/images/LangInnov/nsf_logo.png",
+            "ALT": "logo National Science Foundation"
         },
         "INTRO-ABOUT": {
           "TITLE": "Who We Are",
