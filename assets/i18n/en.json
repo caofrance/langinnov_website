@@ -25,11 +25,9 @@
           "DESCRIPTION": [
             {
                 "PARAGRAPH": "LangInnov is a start-up company whose mission is to support the development of bilingualism by addressing the need for adequate assessment materials for the growing bilingual population that enters U.S. educational systems."
-            },
-            {
-                "PARAGRAPH": "Our first product, BLAST, is being developed with funds awarded by the National Science Foundation."
             }
-          ]
+          ],
+          "BOLD": "Our first product, BLAST, is being developed with funds awarded by the National Science Foundation."
         },
         "SERVICES": {
           "TITLE": "Our Products",
@@ -53,7 +51,7 @@
           "FEATURE3" : {
             "ICON" : "/assets/images/LangInnov/icon_rocket.png",
             "TITLE" : "Capable of assessing oral skills in children",
-            "DESCRIPTION" : "This is accomplished by using a speech recognizer that will be refined by integrating machine learning algorithms trained on children speech data."
+            "DESCRIPTION" : "This is accomplished by integrating state-of-the-art machine learning algorithms for speech processing."
           }
         },
         "ABOUT": {
